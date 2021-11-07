@@ -1,0 +1,188 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+body::-webkit-scrollbar{
+    width: 8px;
+    background: #2C0133;
+}
+body::-webkit-scrollbar-thumb{
+    background: #bd92f1c9;
+    border: solid 2px #7148a3dc;
+    border-radius: 5px;
+}
+
+/* Header   */
+#Inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: url('header.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-bottom: solid 7px #2C0133;
+}
+
+/* Logo */
+.logo {
+    height: 50;
+}
+
+.logo a {
+    color: blanchedalmond;
+    font-family:'Cinzel Decorative';
+    font-size: 50px;
+    font-weight: bold;;
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 10% 115%;
+}
+
+/* Barra lateral */
+#barraLateral{
+    background: #2a0040;
+    border-right: solid 7px #2C0133;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+#barraLateral img{
+    border: solid 1px #2a0040;
+    border-radius: 50%;
+    width: 80%;
+}
+#barraLateral ul {
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px;
+    text-align: center;
+}
+#barraLateral li{
+    padding: 30px 15px;
+    font-family:'Cinzel Decorative';
+    border-bottom: solid #ffffffde 1px;
+    transition: 400ms ease;
+}
+#barraLateral li:hover{
+    background: #502468;
+}
+#barraLateral a {
+    text-decoration: none;
+    color: white;
+}
+/* Conetendor General */
+
+#contenedorGeneral{
+    width: 78.25%;
+    height: 100%;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #2c0234;
+}
+
+.contenedorPrudcto {
+    width: 25%;
+    margin: 40px;
+    border: black solid 1px;
+    transition: ease 500ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: rgb(228, 218, 218);
+}
+.contenedorPrudcto:hover{
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.65);
+}
+
+.contenedorPrudcto img{
+    width: 90%;
+}
+.contenedorPrudcto h2{
+    margin: 25px 0px;
+    font-size: 26px;
+}
+.contenedorPrudcto h3{
+    font-size: 26px;
+}
+
+/* Mapa */
+
+.Maps{
+    background-color: #2c0234;
+    padding: 20px;
+    border-top: solid 5px #2a0040;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Maps h2{
+    padding: 2px 55px;
+    margin: 5px 0px;
+    color: white;
+    font-family: 'Noto Sans Mono', monospace ;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Maps img{
+    border: solid 1px white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 0px #9566cc;
+    margin-top: 15px;
+}
+
+/* Botones */
+
+button{
+    background: #47276ddc;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: ease 450ms;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 80%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background: #7148a3dc;  
+    
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #29092a;
+    color: white;
+    font-family: 'Noto Sans Mono'
+}
+footer p {
+    padding-right: 10px;
+    font-size: 18px;
+}
+footer a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
